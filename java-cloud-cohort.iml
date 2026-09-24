@@ -6,9 +6,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Homework 1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sept 22 Practice/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sept 23 Practice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sept 24 Practice/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Homework 1/out" />
       <excludeFolder url="file://$MODULE_DIR$/Sept 22 Practice/out" />
       <excludeFolder url="file://$MODULE_DIR$/Sept 23 Practice/out" />
+      <excludeFolder url="file://$MODULE_DIR$/Sept 24 Practice/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
