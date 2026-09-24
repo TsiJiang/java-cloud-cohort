@@ -1,5 +1,5 @@
 public class Book {
-    private int id;
+    private final int id;
     private String title;
     private String author;
 
@@ -10,32 +10,27 @@ public class Book {
         return title;
     }
 
-    public void newBook(int id, String title, String author) {
-        if (this.id < 0) {
-            System.out.println("Invalid ID");
+    public Book(int id, String title, String author) {
+        if (id < 0) {
+            //System.out.println("Invalid ID");
+            throw new IllegalArgumentException("Invalid ID: ID cannot be negative.");
         } else {
             this.id = id;
             this.title = title;
             this.author = author;
         }
     }
-    public void setTitle(int id, String title) {
-        if (this.id < 0) {
-            System.out.println("Invalid ID");
-        }else{
-            this.title = title;
-        }
 
+    public void setTitle(String title) {
+        this.title = title;
     }
+
     public String getAuthor() {
         return author;
     }
-    public void setAuthor(int id, String author) {
-        if (this.id < 0) {
-            System.out.println("Invalid ID");
-        }else {
-            this.author = author;
-        }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
 }
