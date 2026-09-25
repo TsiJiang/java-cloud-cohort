@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Ex04  {
     public static void main(String[] args) {
         int a;
