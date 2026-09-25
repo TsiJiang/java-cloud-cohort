@@ -1,10 +1,19 @@
-public class SwitchPractice{
-    static void main(String[] args) {
-        System.out.println(getAccessMessage("admin"));
-        System.out.println(getAccessMessage("editor"));
-        System.out.println(getAccessMessage("viewer"));
-        System.out.println(getAccessMessage("Dave"));
+import java.util.Scanner;
 
+public class SwitchPractice{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+//        System.out.println(getAccessMessage("admin"));
+//        System.out.println(getAccessMessage("editor"));
+//        System.out.println(getAccessMessage("viewer"));
+//        System.out.println(getAccessMessage("Dave"));
+        System.out.print("Enter username: ");
+        try {
+            System.out.println(getAccessMessage(scanner.nextLine()));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        scanner.close();
     }
     public static String getAccessMessage(String role){
         String message = "";
