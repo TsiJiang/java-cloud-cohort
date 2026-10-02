@@ -5,5 +5,5 @@ public static boolean isEven(int n) {
 }
 
 void main(String[] args) {
-
+    System.out.println(isEven(9));
 }

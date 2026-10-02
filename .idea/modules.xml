@@ -3,11 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Homework/Homework.iml" filepath="$PROJECT_DIR$/Homework/Homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Oct 02 Practice/Oct 02 Practice.iml" filepath="$PROJECT_DIR$/Oct 02 Practice/Oct 02 Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sept 22 Practice/Sept 22 Practice.iml" filepath="$PROJECT_DIR$/Sept 22 Practice/Sept 22 Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sept 23 Practice/Sept 23 Practice.iml" filepath="$PROJECT_DIR$/Sept 23 Practice/Sept 23 Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sept 24 Practice/Sept 24 Practice.iml" filepath="$PROJECT_DIR$/Sept 24 Practice/Sept 24 Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sept 25 Practice/Sept 25 Practice.iml" filepath="$PROJECT_DIR$/Sept 25 Practice/Sept 25 Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sept 29 Practice/Sept 29 Practice.iml" filepath="$PROJECT_DIR$/Sept 29 Practice/Sept 29 Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sept 30 Practice/Sept 30 Practice.iml" filepath="$PROJECT_DIR$/Sept 30 Practice/Sept 30 Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-cloud-cohort.iml" filepath="$PROJECT_DIR$/java-cloud-cohort.iml" />
     </modules>
   </component>
